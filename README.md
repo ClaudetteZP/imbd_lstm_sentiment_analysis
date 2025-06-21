@@ -1,17 +1,19 @@
-IMDB Sentiment Analysis Using Tensorflow and Keras
+# IMDB Sentiment Analysis Using TensorFlow and Keras
 
-This repository contains a simple yet effective implementation of a Sentiment Analysis Model trained on the IMDB Movie Reviews
-Dataset using TensorFlow and Keras. The model uses LSTM Layers to classify reviews as positive or negative based on their content.
+This repository demonstrates a sentiment analysis pipeline built with TensorFlow and Keras. It uses LSTM neural networks to classify IMDB movie reviews as positive or negative.
 
-Features
--Preprocessing with Keras' built-in IMDB dataset
--Sequence padding and word embedding
--Stacked LSTM layers for better context capture
--Binary Sentiment Classification with high accuracy
--Custom review prediction function
+## Overview
 
-Model Architecture
--Embedding layer: Maps words to dense vectors
--LSTM (64) layer: Returns sequences
--LSTM (32) layer: Final LSTM output
--Dense layer with sigmoid activation: Outputs binary prediction
+- Utilizes the IMDB dataset provided by Keras  
+- Applies sequence padding and word embeddings  
+- Implements a stacked LSTM architecture for deep sequence learning  
+- Provides a custom function to predict sentiment from user input
+
+## Model Architecture
+
+- **Embedding Layer**: Converts word indices to dense vectors  
+- **LSTM (64 units)**: Returns full sequences for contextual learning  
+- **LSTM (32 units)**: Processes sequential output  
+- **Dense Layer**: Outputs binary prediction using sigmoid activation
+
+
